@@ -8,8 +8,8 @@ export default function Resume() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
-        <section className="min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between">
+        <section>
+          <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-lg dark:text-gray-300 ">Stefany Noguera</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl dark:text-gray-100"/></li>
@@ -17,17 +17,12 @@ export default function Resume() {
             </ul>
           </nav>
 
-          <div className="m-20">
-            <h1 className="text-center text-3xl py-8  text-teal-600 font-medium">STEFANY NOGUERA</h1>
+          <div className="m-3">
+            <h1 className="text-center text-2xl md:text-3xl py-8  text-teal-600 font-medium">STEFANY NOGUERA</h1>
 
-            <div className="flex justify-between">
+            <div className="">
               <h3 className="dark:text-gray-100">Medellín, Colombia.</h3>
               <h3 className="dark:text-gray-100">stefanynoguerar@gmail.com</h3>
-            </div>
-
-            <div className="flex justify-between">
-              <h3 className="dark:text-gray-100">Linkedin: <a href="https://www.linkedin.com/in/stefanynoguera/">https://www.linkedin.com/in/stefanynoguera</a></h3>
-              <h3 className="dark:text-gray-100">Github: <a href="https://github.com/StefanyNoguera">https://github.com/StefanyNoguera</a></h3>
             </div>
 
             <h1 className="text-center text-xl py-8  text-teal-600 font-medium">ABOUT ME</h1>
@@ -44,7 +39,7 @@ export default function Resume() {
             </p>
 
             <h1 className="text-center text-xl py-8  text-teal-600 font-medium">PROJECTS</h1>
-            <div className="text-center">
+            <div className="text-center mb-3">
               <a className="dark:text-gray-100" href="HTTPS://THE-LUXURY-COLLECTION.HEROKUAPP.COM/">HTTPS://THE-LUXURY-COLLECTION.HEROKUAPP.COM/</a>
             </div>
             <p className="dark:text-gray-300">
@@ -65,21 +60,23 @@ export default function Resume() {
 
             <h1 className="text-center text-xl py-8  text-teal-600 font-medium">VOLUNTEER WORK</h1>
 
-            <h3 className="dark:text-gray-100">RECEPTIONIST, LA REDONDA HOSTEL; SAYULITA, MÉXICO — FEB 2022-MAR 2022</h3>
-            <ul className="dark:text-gray-300">
-              <li>・Greeted and directed visitors.</li>
-              <li>・Answered phone calls and managed appointments and schedules.</li>
-              <li>・Demonstrated excellent communication and organisational skills.</li>
-              <li>・Maintained a calm and professional demeanour in a fast-paced environment.</li>
-            </ul>
+            <div className="text-center">
+              <h3 className="dark:text-gray-100">RECEPTIONIST, LA REDONDA HOSTEL; SAYULITA, MÉXICO — FEB 2022-MAR 2022</h3>
+              <ul className="dark:text-gray-300 mb-3">
+                <li>・Greeted and directed visitors.</li>
+                <li>・Answered phone calls and managed appointments and schedules.</li>
+                <li>・Demonstrated excellent communication and organisational skills.</li>
+                <li>・Maintained a calm and professional demeanour in a fast-paced environment.</li>
+              </ul>
 
-            <h3 className="dark:text-gray-100">FUN HOST, MAYAN MONKEY HOSTEL; CANCÚN, MÉXICO — AUG 2021-OCT 2021</h3>
-            <ul className="dark:text-gray-300">
-              <li>・Created a fun and engaging environment for guests.</li>
-              <li>・Managed activities and events for guests.</li>
-              <li>・Demonstrated excellent communication and interpersonal skills.</li>
-              <li>・Adapted to changing circumstances and thought creatively to improve guest experience.</li>
-            </ul>
+              <h3 className="dark:text-gray-100">FUN HOST, MAYAN MONKEY HOSTEL; CANCÚN, MÉXICO — AUG 2021-OCT 2021</h3>
+              <ul className="dark:text-gray-300">
+                <li>・Created a fun and engaging environment for guests.</li>
+                <li>・Managed activities and events for guests.</li>
+                <li>・Demonstrated excellent communication and interpersonal skills.</li>
+                <li>・Adapted to changing circumstances and thought creatively to improve guest experience.</li>
+              </ul>
+            </div>
 
             <h1 className="text-center text-xl py-8  text-teal-600 font-medium">LANGUAGES SPOKEN</h1>
 
