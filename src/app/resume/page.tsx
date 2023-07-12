@@ -80,7 +80,7 @@ export default function Resume() {
 
             <h1 className="text-center text-xl py-8  text-teal-600 font-medium">LANGUAGES SPOKEN</h1>
 
-            <ul className="flex justify-between dark:text-gray-300">
+            <ul className="flex justify-between pb-10 dark:text-gray-300">
               <li>・Spanish (native)</li>
               <li>・English (proficient)</li>
               <li>・French (intermediate)</li>
